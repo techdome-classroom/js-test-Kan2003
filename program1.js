@@ -19,9 +19,7 @@ var isValid = function(s) {
 			char === "}"
 		) { 
 			if ( 
-				parenthesis[stack.pop()] !== 
-				char 
-			) { 
+				parenthesis[stack.pop()] !== char ) { 
 				return false; 
 			} 
 		} 
